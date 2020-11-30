@@ -81,7 +81,7 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
 if(gameOver === true){
     score[avctivePlayer] = score[avctivePlayer] + currentScore;
 document.getElementById('score-' + avctivePlayer).textContent = score[avctivePlayer]
-if(score[avctivePlayer] >= 15){
+if(score[avctivePlayer] >= 100){
     gameOver = false;
 document.getElementById('name-' + avctivePlayer).textContent = 'Winner!!!';
 document.querySelector('.player-'+ avctivePlayer +'-panel').classList.add('winner');
