@@ -67,7 +67,7 @@ document.querySelector('.btn-roll').addEventListener('click' , function() {
        daraagiinToglogch()
     };
     }else{
-        alert('Togloom duuslaa New game deer daraarai!!!')
+        alert('Тоглоом дууслаа New Game дээр дарж шинээр эхэлнэ үү.')
     }
     
 } );
@@ -90,7 +90,7 @@ document.querySelector('.player-'+ avctivePlayer +'-panel').classList.remove('ac
 daraagiinToglogch();
 }
 }else{
-    alert('Togloom duuslaa New game deer daraarai!!!')
+    alert('Тоглоом дууслаа New Game дээр дарж шинээр эхэлнэ үү. ')
 }
 
 });
